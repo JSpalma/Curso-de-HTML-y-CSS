@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejercicio 02/2 - Tablas en HTML</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Autor</th>
+          <th>Año de publicación</th>
+          <th>Enlace a Amazon</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Título del libro 1</td>
+          <td>Autor del libro 1</td>
+          <td>Año de publicación del libro 1</td>
+          <td><a href="#">Enlace a Amazon del libro 1</a></td>
+        </tr>
+        <tr>
+          <td>Título del libro 2</td>
+          <td>Autor del libro 2</td>
+          <td>Año de publicación del libro 2</td>
+          <td><a href="#">Enlace a Amazon del libro 2</a></td>
+        </tr>
+        <tr>
+          <td>Título del libro 3</td>
+          <td>Autor del libro 3</td>
+          <td>Año de publicación del libro 3</td>
+          <td><a href="#">Enlace a Amazon del libro 3</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
