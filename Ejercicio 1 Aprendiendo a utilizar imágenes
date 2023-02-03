@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aprendiendo a utilizar imágenes, vídeos y audios</title>
+  </head>
+  <body>
+    <!-- Sección 1: Imágenes -->
+    <h1>Aprendiendo a utilizar imágenes</h1>
+    <img src="tu_videojuego_favorito.jpg" alt="Tu videojuego favorito">
+
+    <!-- Sección 2: Vídeos -->
+    <h1>Aprendiendo a utilizar los vídeos</h1>
+    <video src="tu_video_descargado.mp4" controls autoplay loop muted></video>
+
+    <!-- Sección 3: Audios -->
+    <h1>Aprendiendo a utilizar los audios</h1>
+    <audio src="tu_audio_descargado.mp3" controls autoplay loop></audio>
+  </body>
+</html>
