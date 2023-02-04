@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Diseño Responsive con CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="sidebar-item">Elemento 1</div>
+        <div class="sidebar-item">Elemento 2</div>
+        <div class="sidebar-item">Elemento 3</div>
+      </aside>
+      <main class="main-section">Contenido Principal</main>
+    </div>
+  </body>
+</html>
+
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section {
+  flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+  .sidebar {
+    flex-direction: row;
+    width: 100%;
+  }
+}
