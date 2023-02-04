@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animaciones y transiciones en CSS</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <button class="btn-modern">Botón Moderno</button>
+</body>
+</html>
+
+
+.btn-modern {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  transition: all 0.4s;
+  position: relative;
+  box-shadow: none;
+}
+
+.btn-modern:hover {
+  background-color: green;
+  color: black;
+  top: -5px;
+  box-shadow: 0px 5px 10px #888888;
+}
