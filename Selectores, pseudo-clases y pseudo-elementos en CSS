@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selectores, pseudo-clases y pseudo-elementos en CSS</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <button class="myButton">Pasa por encima</button>
+</body>
+</html>
+
+
+.myButton {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}
+
+.myButton:hover {
+  background-color: green;
+  color: white;
+}
+
+.myButton::before {
+  content: "Pasa por encima";
+}
+
+.myButton:hover::before {
+  content: "¡Hecho!";
+}
